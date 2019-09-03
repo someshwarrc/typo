@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 95vh;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.typoBody{
+    width: 34.375rem;
+    display: block;
+    margin: 0 auto;
+    border: 10px solid #08060657;
+
+}
+
+.typoContainer{
+    display: grid;
+    grid-template-rows: 13.5rem 16rem 3rem;
+}
+.msg{
+    width: 34.375rem;
+    box-sizing: border-box;
+    height: 4rem;
+    text-align: center;
+    font-weight: 700;
+    margin: 0.25rem auto;
+    margin-bottom: 0%;
+    background: #429890;
+    padding: 1rem;    
+}
+.text{
+    width: 34rem;
+    box-sizing: border-box;
+    margin: 0.5rem auto;
+    background: rgba(207, 206, 205, 0.658);
+    border: none;  
+    font-size: 0.8rem; 
+    border-radius: 5px;
+    padding: 1rem;
+    position: relative;
+}
+.text img{
+    position: absolute;
+    top: 0.4rem;
+    right: 0.5rem;
+}
+.timer{
+    width: 30rem;
+    margin: 0 auto;
+    margin-top: 0.25rem;
+}
+.timer span{
+    font-size: 1.5rem;
+}
+.timer button{
+    float: right;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 0.4rem;
+    background: rgba(68, 68, 192, 0.753);
+    color: white;
+    margin-left: 1rem;
+}
+
+#test{
+    margin: 0 auto; 
+    width: 30rem;
+    border: 10px solid #8882829d;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: none;
+    padding: 1rem;
+    font-family: 'Raleway', sans-serif;
+
+}
